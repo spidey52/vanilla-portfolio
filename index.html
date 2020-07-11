@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Banty Portfolio</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="name">I'm Banty Babu</div>
+
+        <div class="skills">
+            <li><a id='port-link' class="nav-link" sat='#portfolio' href="#portfolio">Portfolio </a></li>
+            <li><a id='about-link' class="nav-link" sat="#about" href="#about">about</a></li>
+            <li><a id='contact-link' class="nav-link" sat="#contact" href="#contact">contact</a></li>
+            <!-- <button onclick="scrollToTarget()"> go to portfolio </button> -->
+        </div>
+
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="profile">
+            <img src="./profile.jpeg" alt="Profile Image">
+        </div>
+
+        <p id="name">I'm Banty Babu</p>
+
+        <div class="underline">
+            <div class="line"></div>
+            <div class="star">★</div>
+            <div class="line"></div>
+        </div>
+
+        <div class="details">
+            <div class="qualification">Electrician </div>
+            <div class="qualification">Compunder </div>
+            <div class="qualification">Computer Operator</div>
+        </div>
+    </div>
+
+    <div class="Portfolio" id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="underline">
+            <div class="line bg-black"></div>
+            <div class="star text-black">★</div>
+            <div class="line bg-black"></div>
+        </div>
+
+        <div class="gallery">
+            <div class="pics">
+                <img src="./img1.jpg" alt="">
+                <div class="cont">
+                    <div class="plus">★</div>
+                </div>
+            </div>
+            <div class="pics">
+                <img src="./img2.jpg" alt="">
+                <div class="plus">★</div>
+            </div>
+            <div class="pics">
+                <img src="./img3.jpg" alt="">
+                <div class="plus">★</div>
+            </div>
+            <div class="pics">
+                <img src="./img4.jpg" alt="">
+                <div class="plus">★</div>
+            </div>
+            <div class="pics">
+                <img src="./img5.jpg" alt="">
+                <div class="plus">★</div>
+            </div>
+            <div class="pics">
+                <img src="http://picsum.photos/250/250" alt="">
+                <div class="plus">★</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="about">
+        <h2>About me</h2>
+        <div class="underline">
+            <div class="line "></div>
+            <div class="star">★</div>
+            <div class="line "></div>
+        </div>
+        <div class="knowledge">
+            <p>Lorem ipsum dolor, sit amet conse ctetur adipisicing elit. Molestias pariatur, at, doloribus error
+                mollitia aliquid itaque corrupti magnam debitis nihil voluptatem ducimus, hic earum! Provident
+                distinctio odit totam maiores! Molestias maxime consequatur minima quisquam impedit cum aperiam rerum
+                quia enim?</p>
+            <p>Lorem, ipsum dolor sit amet conse ctetur adip isicing elit. Temporibus molestias explicabo corrupti
+                dignissimos voluptatum repellat, similique laborum iste. Sapiente, obcaecati?</p>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h2>Contact me</h2>
+        <div class="underline">
+            <div class="line bg-black"></div>
+            <div class="star text-black">★</div>
+            <div class="line bg-black"></div>
+        </div>
+    </div>
+
+    <div class="contact-form" id="contact">
+        <form action="#">
+            <div class="form-div">
+                <label for="username">Name</label>
+                <input type="text" id="username" placeholder="Name">
+            </div>
+            <div class="form-div">
+                <label for="email">Email</label>
+                <input type="email" name="" id="email" placeholder="Email Address">
+            </div>
+            <div class="form-div">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="" id="phone" placeholder="Phone Number">
+            </div>
+            <div class="form-div">
+                <label for="message">Message</label>
+                <textarea name="" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+            </div>
+            <div class="form-div">
+                <button> send </button>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="address">
+        <div class="container">
+
+            <div class="location row">
+                <h3> Location</h3>
+                <span>Mohammadpur, Asthawan, 803107 Nalanda, Bihar</span>
+            </div>
+            <div class="social row">
+                <h3>FIND ME ON</h3>
+                <div class="social-links">
+                    <span class="social-icon"> <i class="fa fa-facebook"></i></span>
+                    <span class="social-icon"> <i class="fa fa-twitter"></i></span>
+                    <span class="social-icon"> <i class="fa fa-youtube"></i></span>
+                    <span class="social-icon"> <i class="fa fa-instagram"></i></span>
+                </div>
+            </div>
+            <div class="about-developer row">
+                <h3>about developer</h3>
+                <p>BachelorsCode is software development company. <br> <a
+                    class="text-white"    href="https://bachelorscode.tech">Bachelorscode</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright &copy <a href="https://bachelorscode.tech" target="_blank">bachelorscode.tech</a></p>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
