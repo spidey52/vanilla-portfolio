@@ -8,11 +8,6 @@ document.querySelector('.skills').addEventListener('click', function () {
 })
 
 
-
-// When the user scrolls down then 
-// slide down the navbar 
-
-
 document.querySelectorAll('.nav-link').forEach(item => {
     item.addEventListener('click', (e) => {
         e.preventDefault()
